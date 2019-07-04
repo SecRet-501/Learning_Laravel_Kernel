@@ -17,31 +17,44 @@ Laravel核心代码学习
 ## 关于框架版本
 在通过这个项目学习`Laravel`核心代码时请使用`Laravel5.5`版本，由于服务容器和中间件两篇文章成稿比较早那会还在使用5.2版本的Laravel做项目所以引用的代码也来自5.2版本，其余章节的代码均引用自`Laravel5.5`的核心，两个版本的核心代码差异很小我已经在这两篇文章中标注出差异的地方所以不影响读者使用这个项目来学习`Laravel5.5`版本的核心代码。
 
+## Contact
+- [Open an issue](https://github.com/kevinyan815/Learning_Laravel_Kernel/issues)
+- Gmail: kevinyan815@gmail.com
+
 ## 文章目录
 
-- [类的反射和依赖注入](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/reflection.md)
-- [服务容器(IocContainer)](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/IocContainer.md)
-- [服务提供器(ServiceProvider)](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/ServiceProvider.md)
-- [外观模式(Facade Pattern)](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/FacadePattern.md)
-- [Facades](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Facades.md)
-- [路由](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Route.md)
-- [装饰模式(Decorator Pattern)](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/DecoratorPattern.md)
-- [中间件](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Middleware.md)
-- [控制器](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Controller.md)
-- [Request](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Request.md)
-- [Response](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Response.md)
-- [Database 基础介绍](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Database1.md)
-- [Database 查询构建器](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Database2.md)
-- [Database 模型CRUD](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Database3.md)
-- [Database 模型关联](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Database4.md)
-- [观察者模式](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Observer.md)
-- [事件系统](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Event.md)
-- [用户认证系统(基础介绍)](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Auth1.md)
-- [用户认证系统(实现细节)](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Auth2.md)
-- [扩展用户认证系统](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Auth3.md)
-- [Session源码解析](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Session.md)
+- [类的反射和依赖注入](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/reflection.md)
+- [服务容器(IocContainer)](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/IocContainer.md)
+- [服务提供器(ServiceProvider)](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/ServiceProvider.md)
+- [外观模式(Facade Pattern)](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/FacadePattern.md)
+- [Facades](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Facades.md)
+- [路由](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Route.md)
+- [装饰模式(Decorator Pattern)](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/DecoratorPattern.md)
+- [中间件](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Middleware.md)
+- [控制器](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Controller.md)
+- [Request](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Request.md)
+- [Response](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Response.md)
+- [Database 基础介绍](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Database1.md)
+- [Database 查询构建器](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Database2.md)
+- [Database 模型CRUD](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Database3.md)
+- [Database 模型关联](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Database4.md)
+- [观察者模式](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Observer.md)
+- [事件系统](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Event.md)
+- [用户认证系统(基础介绍)](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Auth1.md)
+- [用户认证系统(实现细节)](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Auth2.md)
+- [扩展用户认证系统](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Auth3.md)
+- [Session源码解析](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Session.md)
+- [Cookie源码解析](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Cookie.md)
+- [Contracts契约](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Contracts.md)
+- [加载和读取ENV配置](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/ENV.md)
+- [HTTP内核](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/HttpKernel.md)
+- [Console内核](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/ConsoleKernel.md)
+- [异常处理](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Exception.md)
+- [结束语](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Farewell.md)
+
 
 
 ## 其他推荐
 
 - [Laravel最佳实践](https://github.com/kevinyan815/laravel_best_practices_cn) 
+- [Laravel Gitlab持续集成](https://github.com/kevinyan815/gitlab-ci)

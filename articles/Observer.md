@@ -14,7 +14,7 @@ Laravel的Event事件系统提供了一个简单的观察者模式实现，能�
 
 ### 模式结构说明
 
-![观察者模式UML](http://7j1zeu.com1.z0.glb.clouddn.com/ObserverPatternUML.png)
+![观察者模式UML](https://user-gold-cdn.xitu.io/2018/6/6/163d27e2a360d07e?imageslim)
 
 - Subject  目标抽象类
 - ConcreteSubject 具体目标
@@ -159,6 +159,6 @@ $worker = new Client();
 
 - 观察者模式的主要优点在于可以实现表示层和数据逻辑层的分离，并在观察目标和观察者之间建立一个抽象的耦合，支持广播通信；其主要缺点在于如果一个观察目标对象有很多直接和间接的观察者的话，将所有的观察者都通知到会花费很多时间，而且如果在观察者和观察目标之间有循环依赖的话，观察目标会触发它们之间进行循环调用，可能导致系统崩溃。
 
-上一篇: [Database 模型关联](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Database4.md)
+上一篇: [Database 模型关联](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Database4.md)
 
-下一篇: [事件系统](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/aritcles/Event.md)
+下一篇: [事件系统](https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/articles/Event.md)
